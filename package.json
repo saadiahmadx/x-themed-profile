@@ -1,0 +1,27 @@
+{
+	"name": "x-themed-profile",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.39",
+		"postcss-import": "^16.1.0",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.6",
+		"svelte": "^4.2.7",
+		"svelte-preprocess": "^6.0.2",
+		"tailwindcss": "^3.4.14",
+		"vite": "^5.0.3"
+	}
+}
