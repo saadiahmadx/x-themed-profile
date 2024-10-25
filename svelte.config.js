@@ -7,10 +7,9 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$src: 'src',
-			$components: 'src/components',
-			$lib: 'src/components',
+			$lib: 'src/lib',
+            $components: 'src/lib/components',
 			$routes: 'src/routes',
-			$db: 'src/db',
 		}
 	},
 	preprocess: [vitePreprocess()]

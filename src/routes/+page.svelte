@@ -1,6 +1,6 @@
 <script>
     import * as config from '$src/app.config';
-    import DarkModeToggle from '$src/components/DarkModeToggle';
+    import DarkModeToggle from '$lib/components/DarkModeToggle';
     
     import XTwitter from '$lib/icons/XTwitter';
     import Github from '$lib/icons/Github';
