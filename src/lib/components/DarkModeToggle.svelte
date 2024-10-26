@@ -3,10 +3,16 @@
 	import Brightness from '$lib/icons/Brightness';
 	import Moon from '$lib/icons/Moon';
 
-	export let className = '';
+	/**
+	 * @typedef {Object} Props
+	 * @property {string} [className]
+	 */
 
-	let darkMode = false;
-	let mounted = false;
+	/** @type {Props} */
+	let { className = '' } = $props();
+
+	let darkMode = $state(false);
+	let mounted = $state(false);
 
 	onMount(() => {
 		const savedMode = localStorage.getItem('darkMode');
@@ -35,7 +41,7 @@
 </script>
 
 {#if mounted}
-	<button on:click={toggleDarkMode} class="block" aria-label="Toggle dark mode">
+	<button onclick={toggleDarkMode} class="block" aria-label="Toggle dark mode">
 		{#if darkMode}
 			<Brightness class={className} />
 		{:else}

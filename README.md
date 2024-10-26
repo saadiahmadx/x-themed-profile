@@ -5,6 +5,7 @@ A simple X themed profile or "link in bio" type page so you can link to your pro
 It's in SvelteKit so I can expand on it with more routes, but you could also just create a static index.html file.
 
 ## Local setup
+
 Open a terminal in the folder you want to clone this repo to and run.
 
 ```bash

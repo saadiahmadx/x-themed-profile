@@ -2,6 +2,13 @@
 	import '$src/app.css';
 	import * as config from '$src/app.config';
 	import { page } from '$app/stores';
+	/**
+	 * @typedef {Object} Props
+	 * @property {import('svelte').Snippet} [children]
+	 */
+
+	/** @type {Props} */
+	let { children } = $props();
 
 	const schemaOrgWebsite = {
 		'@context': 'https://schema.org',
@@ -10,7 +17,7 @@
 		url: config.siteUrl
 	};
 
-	$: canonicalUrl = `${config.siteUrl}${$page.url.pathname}`;
+	let canonicalUrl = $derived(`${config.siteUrl}${$page.url.pathname}`);
 </script>
 
 <svelte:head>
@@ -65,7 +72,7 @@
 	{@html `<script type="application/ld+json">${JSON.stringify(schemaOrgWebsite)}</script>`}
 </svelte:head>
 
-<slot />
+{@render children?.()}
 
 <style lang="postcss">
 	:global(a, button, .btn, input, texarea, select) {
