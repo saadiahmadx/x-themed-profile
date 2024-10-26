@@ -1,5 +1,5 @@
 <script>
-	import '$src/app.css';    
+	import '$src/app.css';
 	import * as config from '$src/app.config';
 	import { page } from '$app/stores';
 
@@ -11,7 +11,6 @@
 	};
 
 	$: canonicalUrl = `${config.siteUrl}${$page.url.pathname}`;
-
 </script>
 
 <svelte:head>

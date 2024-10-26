@@ -19,7 +19,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['system-ui', 'sans-serif', 'Helvetica', 'Arial', 'sans-serif'],
+				sans: ['system-ui', 'sans-serif', 'Helvetica', 'Arial', 'sans-serif']
 			},
 			fontSize: {
 				xs: ['0.75rem', { lineHeight: '1.5' }],

@@ -8,8 +8,8 @@ const config = {
 		alias: {
 			$src: 'src',
 			$lib: 'src/lib',
-            $components: 'src/lib/components',
-			$routes: 'src/routes',
+			$components: 'src/lib/components',
+			$routes: 'src/routes'
 		}
 	},
 	preprocess: [vitePreprocess()]

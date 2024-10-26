@@ -3,7 +3,7 @@
 	<head>
 		%sveltekit.head%
 		<script>
-            // dark mode, follow user's system settings
+			// dark mode, follow user's system settings
 			(function () {
 				var savedMode = localStorage.getItem('darkMode');
 				if (savedMode === 'true' || (savedMode === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {

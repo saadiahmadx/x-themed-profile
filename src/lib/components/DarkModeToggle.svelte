@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
-    import Brightness from '$lib/icons/Brightness';
-    import Moon from '$lib/icons/Moon';
+	import Brightness from '$lib/icons/Brightness';
+	import Moon from '$lib/icons/Moon';
 
 	export let className = '';
 
