@@ -1,6 +1,6 @@
 A simple X themed profile or "link in bio" type page so you can link to your projects, social, blog posts, or whatever you want.
 
-It's in SvelteKit so you can expand on it with more routes, but you could also just create a static index.html file.
+It's in SvelteKit so I can expand on it with more routes, but you could also just create a static index.html file.
 
 ## Local setup
 
@@ -17,7 +17,7 @@ npm run dev
 3. Update the main page content in `src/routes/+page.svelte`
 
 ## Deploy with Vercel
-1. Sign up for a free vercel account.
+1. Sign up for a free Vercel account.
 2. Add new project
-3. Import from git repository
+3. Import from GitHub repository
 4. Deploy
