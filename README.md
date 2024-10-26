@@ -1,11 +1,10 @@
 ![preview](https://raw.githubusercontent.com/loopsandvariables/x-themed-profile/refs/heads/main/static/images/desktop-mobile-mockup.png)
 
-A simple X themed profile or "link in bio" type page so you can link to your projects, social, blog posts, or whatever you want.
+A simple X themed profile or "link in bio" type page so you can link to your projects, social, blog posts, or whatever you want. Built withSvelteKit so I can expand on it with more routes.
 
-It's in SvelteKit so I can expand on it with more routes, but you could also just create a static index.html file.
+If you just want a static page, you can just copy the `static/html/index.html` file to your own project.
 
 **Demo:** I created my [personal site](https://loopsandvariables.com) with this template.
-
 
 ## Local setup
 
