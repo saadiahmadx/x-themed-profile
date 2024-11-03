@@ -12,7 +12,7 @@
 	// work/project list svgs
 	import Weak from '$lib/icons/Weak';
     import Astronaut from '$lib/icons/Astronaut';
-	import ChatTMS from '$lib/icons/Chattms';
+	import ChatTMS from '$lib/icons/ChatTMS';
 	import Death from '$lib/icons/Death';
 	import ShortEdits from '$lib/icons/Shortedits';
 	import ItBetterInThailand from '$lib/icons/ItBetterInThailand';
