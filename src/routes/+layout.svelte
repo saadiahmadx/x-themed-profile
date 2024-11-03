@@ -26,26 +26,22 @@
 	<meta name="robots" content="index, follow" />
 	<link rel="canonical" href={canonicalUrl} />
 
-	<!-- Mobile App Meta Tags -->
+    <!-- Favicon and App Icons (https://realfavicongenerator.net) -->
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+	
+    <!-- Progressive Web App (PWA) -->
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-title" content={config.siteName} />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<meta name="theme-color" content={config.pwaThemeColor} />
-
-	<!-- Favicon and App Icons (https://realfavicongenerator.net) -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
-	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
-	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
-	<link rel="shortcut icon" href="/images/favicons/favicon.ico" />
-
-	<!-- Manifest and PWA options -->
-	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color={config.pwaThemeColor} />
 	<link rel="manifest" href="/site.webmanifest" />
 	<meta name="theme-color" content={config.pwaThemeColor} />
 	<meta name="msapplication-TileColor" content={config.pwaThemeColor} />
-	<meta name="msapplication-config" content="browserconfig.xml" />
-
+    
 	<!-- Fonts -->
 	<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
