@@ -47,7 +47,7 @@
 					I created this template for my personal page. It's simple, responsive, and kinda looks like X? Get it from <a href="https://github.com/loopsandvariables/x-themed-profile" class="underline" target="_blank">GitHub</a>. My
 					<a href="https://loopsandvariables.com" class="underline" target="_blank">original page</a> is here.
 				</p>
-				<p class="mt-[1em]"><a href="/updates" class="underline">Join my email list</a> for product updates and free stuff I make for other solo builders.</p>
+				<p class="mt-[1em]"><a href="https://loopsandvariables.com/updates" class="underline">Join my email list</a> for product updates and free stuff I make for other solo builders.</p>
 			</div>
 
 			<div class="flex items-center justify-center gap-10 py-6 mt-auto lg:py-0 md:justify-start">
