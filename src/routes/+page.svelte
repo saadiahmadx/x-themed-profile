@@ -10,7 +10,8 @@
 	import BadgeCheck from '$lib/icons/BadgeCheck';
 
 	// work/project list svgs
-	import Astronaut from '$lib/icons/Astronaut';
+	import Weak from '$lib/icons/Weak';
+    import Astronaut from '$lib/icons/Astronaut';
 	import ChatTMS from '$lib/icons/Chattms';
 	import Death from '$lib/icons/Death';
 	import ShortEdits from '$lib/icons/Shortedits';
@@ -67,7 +68,18 @@
 		</div>
 		<div class="col-span-12 p-6 -mt-6 lg:col-span-6 xl:col-span-7 md:p-12 lg:p-16 xl:p-20 2xl:p-24 lg:pl-0 xl:pl-0 2xl:pl-0 md:-mt-12 lg:mt-0">
 			<div class="flex flex-col gap-6 text-base md:text-xl md:gap-6 lg:gap-7 xl:gap-8">
-				<a class="rounded-[20px] md:rounded-[25px] p-5 md:p-6 bg-dark/5 hover:bg-dark/10 dark:bg-light/5 dark:hover:bg-light/10 flex items-center gap-[1.5em]" href="https://astronaut.build" target="_blank">
+
+				<a class="rounded-[20px] md:rounded-[25px] p-5 md:p-6 bg-dark/5 hover:bg-dark/10 dark:bg-light/5 dark:hover:bg-light/10 flex items-center gap-[1.5em]" href="https://iwasweak.com" target="_blank">
+					<div class="w-[80px] md:w-[90px] md:h-[90px] md:rounded-[18px] h-[80px] rounded-[15px] shrink-0 flex items-center justify-center bg-light dark:bg-dark">
+						<Weak />
+					</div>
+					<div class="flex flex-col">
+						<h2 class="font-bold">Weak</h2>
+						<p class="opacity-50 font-medium mt-[0.1em]">We've all become so weak. We need no bullshit self improvement tools.</p>
+					</div>
+				</a>
+
+                <a class="rounded-[20px] md:rounded-[25px] p-5 md:p-6 bg-dark/5 hover:bg-dark/10 dark:bg-light/5 dark:hover:bg-light/10 flex items-center gap-[1.5em]" href="https://astronaut.build" target="_blank">
 					<div class="w-[80px] md:w-[90px] md:h-[90px] md:rounded-[18px] h-[80px] rounded-[15px] shrink-0 flex items-center justify-center bg-light dark:bg-dark">
 						<Astronaut />
 					</div>
