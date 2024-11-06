@@ -6,6 +6,12 @@ If you just want a static page, you can just copy the `static/html/index.html` f
 
 **Demo:** I created my [personal site](https://loopsandvariables.com) with this template.
 
+## Getting started
+
+If you're new to Svelte or Vercel, here's a quick walkthrough video:
+
+[![Watch the demo](https://i3.ytimg.com/vi/TAlLUueCFHQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=TAlLUueCFHQ&t)
+
 ## Local setup
 
 Open a terminal in the folder you want to clone this repo to and run.
