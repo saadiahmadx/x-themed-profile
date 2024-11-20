@@ -3,19 +3,16 @@
 	import DarkModeToggle from '$lib/components/DarkModeToggle';
 
 	// icon svgs
+	import Spotify from '$lib/icons/Spotify';
+	import AppleMusic from '$lib/icons/AppleMusic';
 	import XTwitter from '$lib/icons/XTwitter';
-	import Github from '$lib/icons/Github';
-	import Dribbble from '$lib/icons/Dribbble';
-	import Codepen from '$lib/icons/Codepen';
+	import Instagram from '$lib/icons/Instagram';
+	import Soundcloud from '$lib/icons/Soundcloud';
+	import Tiktok from '$lib/icons/Tiktok';
 	import BadgeCheck from '$lib/icons/BadgeCheck';
 
 	// work/project list svgs
-	import Weak from '$lib/icons/Weak';
-    import Astronaut from '$lib/icons/Astronaut';
-	import ChatTMS from '$lib/icons/ChatTMS';
-	import Death from '$lib/icons/Death';
-	import ShortEdits from '$lib/icons/Shortedits';
-	import ItBetterInThailand from '$lib/icons/ItBetterInThailand';
+
 </script>
 
 <svelte:head>
@@ -27,46 +24,52 @@
 	<div class="grid grid-cols-12 mx-auto lg:gap-16 xl:gap-20 2xl:gap-24">
 		<div class="top-0 flex flex-col col-span-12 gap-6 p-6 overflow-y-auto lg:h-screen lg:sticky lg:col-span-6 xl:col-span-5 md:gap-8 lg:gap-10 xl:gap-12 2xl:gap-14 md:p-12 lg:p-16 xl:p-20 2xl:p-24 lg:pr-0 xl:pr-0 2xl:pr-0">
 			<div class="flex flex-col items-center md:flex-row">
-				<a class="flex flex-col items-center justify-center gap-3 pt-5 text-center md:pt-0 md:justify-start md:text-left md:flex-row md:gap-5 lg:gap-4 xl:gap-6" href="https://x.com/intent/follow?screen_name=loopsvariables" target="_blank">
+				<a class="flex flex-col items-center justify-center gap-3 pt-5 text-center md:pt-0 md:justify-start md:text-left md:flex-row md:gap-5 lg:gap-4 xl:gap-6" href="https://x.com/intent/follow?screen_name=saadiswurld" target="_blank">
 					<!-- <Logo /> -->
-					<img src="/images/profile.jpg" alt="Henry" class="w-20 h-20 rounded-full md:w-16 md:h-16" />
+					<img src="/images/profile.jpg" alt="saadi" class="w-20 h-20 rounded-full md:w-16 md:h-16" />
 					<div class="flex flex-col items-center justify-center text-xl md:items-start md:justify-start md:text-xl xl:text-xl">
-						<span class="flex items-center gap-[0.3em] font-extrabold">Henry <BadgeCheck class="text-[#4a99e9] w-[1em] h-[1em]" /></span>
-						<span class="font-medium opacity-60">@loopsvariables</span>
+						<span class="flex items-center gap-[0.3em] font-extrabold">saadi <BadgeCheck class="text-[#4a99e9] w-[1em] h-[1em]" /></span>
+						<span class="font-medium opacity-60">@saadiswurld</span>
 					</div>
 				</a>
 				<div class="flex items-center gap-5 mt-6 md:mt-0 xl:gap-6 md:ml-auto">
 					<div class="absolute top-10 right-10 md:top-0 md:right-0 md:relative opacity-40 hover:opacity-100">
 						<DarkModeToggle className="w-6 h-6" />
 					</div>
-					<a class="text-lg xl:text-xl font-bold rounded-full bg-dark dark:bg-light hover:opacity-80 px-[1em] py-[0.5em] text-light dark:text-dark" href="https://x.com/intent/follow?screen_name=loopsvariables" target="_blank">Follow</a>
+					<a class="text-lg xl:text-xl font-bold rounded-full bg-dark dark:bg-light hover:opacity-80 px-[1em] py-[0.5em] text-light dark:text-dark" href="https://x.com/intent/follow?screen_name=saadiswurld" target="_blank">Follow</a>
 				</div>
 			</div>
 
-			<div class="px-5 text-xl text-center md:text-left md:text-2xl lg:text-2xl xl:text-2xl md:px-0">
+			<!--<div class="px-5 text-xl text-center md:text-left md:text-2xl lg:text-2xl xl:text-2xl md:px-0">
 				<p class="">
-					I created this template for my personal page. It's simple, responsive, and kinda looks like X? Get it from <a href="https://github.com/loopsandvariables/x-themed-profile" class="underline" target="_blank">GitHub</a>. My
+					I created HELLLOOOOOthis template for my personal page. It's simple, responsive, and kinda looks like X? Get it from <a href="https://github.com/loopsandvariables/x-themed-profile" class="underline" target="_blank">GitHub</a>. My
 					<a href="https://loopsandvariables.com" class="underline" target="_blank">original page</a> is here.
 				</p>
 				<p class="mt-[1em]"><a href="https://loopsandvariables.com/updates" class="underline">Join my email list</a> for product updates and free stuff I make for other solo builders.</p>
-			</div>
+			</div>-->
 
 			<div class="flex items-center justify-center gap-10 py-6 mt-auto lg:py-0 md:justify-start">
-				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://x.com/intent/follow?screen_name=loopsvariables" target="_blank">
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://x.com/intent/follow?screen_name=saadiswurld" target="_blank">
+					<Spotify class="w-8 h-8" />
+				</a>
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://x.com/intent/follow?screen_name=saadiswurld" target="_blank">
+					<AppleMusic class="w-8 h-8" />
+				</a>
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://x.com/intent/follow?screen_name=saadiswurld" target="_blank">
 					<XTwitter class="w-8 h-8" />
 				</a>
-				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://dribbble.com/henry" target="_blank">
-					<Dribbble class="w-8 h-8" />
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://www.instagram.com/saadiahmadx/" target="_blank">
+					<Instagram class="w-8 h-8" />
 				</a>
-				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://github.com/loopsandvariables" target="_blank">
-					<Github class="w-8 h-8" />
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://soundcloud.com/saadiswurld" target="_blank">
+					<Soundcloud class="w-8 h-8" />
 				</a>
-				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://codepen.io/loopsandvariables" target="_blank">
-					<Codepen class="w-8 h-8" />
+				<a class="p-2 -m-2 opacity-100 hover:opacity-60" href="https://www.tiktok.com/@saadisaadisaadis" target="_blank">
+					<Tiktok class="w-8 h-8" />
 				</a>
 			</div>
 		</div>
-		<div class="col-span-12 p-6 -mt-6 lg:col-span-6 xl:col-span-7 md:p-12 lg:p-16 xl:p-20 2xl:p-24 lg:pl-0 xl:pl-0 2xl:pl-0 md:-mt-12 lg:mt-0">
+		<!--<div class="col-span-12 p-6 -mt-6 lg:col-span-6 xl:col-span-7 md:p-12 lg:p-16 xl:p-20 2xl:p-24 lg:pl-0 xl:pl-0 2xl:pl-0 md:-mt-12 lg:mt-0">
 			<div class="flex flex-col gap-6 text-base md:text-xl md:gap-6 lg:gap-7 xl:gap-8">
 
 				<a class="rounded-[20px] md:rounded-[25px] p-5 md:p-6 bg-dark/5 hover:bg-dark/10 dark:bg-light/5 dark:hover:bg-light/10 flex items-center gap-[1.5em]" href="https://iwasweak.com" target="_blank">
@@ -134,6 +137,6 @@
 					<p class="font-medium">I guess I should ship more.</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
